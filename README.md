@@ -7,10 +7,15 @@ owo
 
 #How 2 use
 
+Install git
+```
+pacman -S git
+```
+
 Clone dis repo
 
 ```
-https://github.com/vWinter-Codes/arch-scripts.git
+git clone https://github.com/vWinter-Codes/arch-scripts.git
 ```
 
 ./install.sh
