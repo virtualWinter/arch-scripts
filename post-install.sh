@@ -10,7 +10,6 @@ echo "arch" >> /etc/hostname
 echo "127.0.1.1 arch.localdomain  arch" >> /etc/hosts
 mkinitcpio -P
 passwd
-echo "greeter-session=lightdm-deepin-greeter" >> /etc/lightdm/lightdm.conf
 
 grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=arch
 grub-mkconfig -o /boot/grub/grub.cfg
