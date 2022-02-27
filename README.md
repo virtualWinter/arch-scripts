@@ -17,9 +17,11 @@ Clone dis repo
 ```
 git clone https://github.com/vWinter-Codes/arch-scripts.git
 ```
+Run the install script
 ```
 ./install.sh
 ```
+Run the post install script
 ```
 ./post-install.sh
 ```
