@@ -18,7 +18,7 @@ useradd -m -G wheel,power,input,storage,uucp,network -s /usr/bin/zsh winter
 sed --in-place 's/^#\s*\(%wheel\s\+ALL=(ALL)\s\+NOPASSWD:\s\+ALL\)/\1/' /etc/sudoers
 echo "Set password for new user winter"
 passwd winter
-systemctl start lightdm.service
-systemctl enable lightdm.service
+systemctl start sddm.service
+systemctl enable sddm.service
 systemctl enable NetworkManager.service
 echo "Configuration done. You can now exit chroot."
