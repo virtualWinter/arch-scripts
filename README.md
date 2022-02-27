@@ -2,7 +2,6 @@
 Arch script install / post-install
 
 You still need a usb/dvd with the newest arch installer 
-
 owo
 
 # How 2 use
