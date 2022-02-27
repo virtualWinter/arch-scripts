@@ -51,7 +51,7 @@ mkswap /dev/sda2
 swapon /dev/sda2
 echo "Starting install.."
 echo "Installing Arch Linux, KDE with Konsole and Dolphin and GRUB2 as bootloader" 
-pacstrap /mnt base base-devel zsh grml-zsh-config grub os-prober intel-ucode efibootmgr dosfstools freetype2 fuse2 mtools iw wpa_supplicant dialog mesa xf86-video-intel xorg xorg-server deepin deepin-extra
+pacstrap /mnt base base-devel zsh grml-zsh-config grub os-prober intel-ucode efibootmgr dosfstools freetype2 fuse2 mtools iw wpa_supplicant dialog mesa xf86-video-intel xorg xorg-server plasma kde-applications
 genfstab -U /mnt >> /mnt/etc/fstab
 cp -rfv post-install.sh /mnt/root
 chmod a+x /mnt/root/post-install.sh
