@@ -5,7 +5,7 @@ you still need a usb/dvd with the newest arch installer
 
 owo
 
-#How 2 use
+# How 2 use
 
 Install git
 ```
